@@ -1,0 +1,26 @@
+/* ==========================================================================
+   CSS variables
+   ========================================================================== */
+
+:root {
+
+  /**
+   * Colors
+   */
+
+  --grey_text:   #333;
+  --blue_link:   #00f;
+
+  /**
+   * Base variables, adapated from Suit CSS
+   */
+
+  --base_background:     white;
+  --base_color:          var(--grey_text);
+  --base_fontfamily:     sans-serif;
+  --base_fontsize:       15px;
+  --base_lineheight:     1.5;
+  --base_linkcolor:      var(--blue_link);
+  --base_linkcolorhover: var(--grey_text);
+
+}

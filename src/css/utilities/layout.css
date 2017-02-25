@@ -1,0 +1,14 @@
+/* ==========================================================================
+   Utilities - layout
+   ========================================================================== */
+
+/**
+ * Trumping layout utilities derived from SUIT CSS layout utilities:
+ * https://github.com/suitcss/utils
+ */
+
+.u-cf:after {
+    content:"";
+    display:table;
+    clear:both;
+}
