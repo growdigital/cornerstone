@@ -1,0 +1,29 @@
+{
+  "name": "cornerstone",
+  "version": "0.0.1",
+  "description": "Very simple modular CSS build process",
+  "main": "index.php",
+  "devDependencies": {
+    "gulp": "^4",
+    "gulp-concat": "^2",
+    "gulp-cssnano": "^2",
+    "gulp-livereload": "^3",
+    "postcss-cssnext": "^2",
+    "gulp-watch": "^4",
+    "normalize.css": "^3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/growdigital/cornerstone"
+  },
+  "author": "Jake Rayson",
+  "license": "GPLv3",
+  "private": "true",
+  "bugs": {
+    "url": "https://github.com/growdigital/cornerstone/issues"
+  },
+  "homepage": "https://github.com/growdigital/cornerstone"
+}
