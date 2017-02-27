@@ -3,7 +3,8 @@ var gulp = require('gulp');
 var concat = require('gulp-concat');
 var cssnext = require('postcss-cssnext');
 var minifyCSS = require('gulp-cssnano');
-var minifyCSS = require('gulp-livereload');
+var livereload = require('gulp-livereload');
+var postcss = require('gulp-postcss');
 var watch = require('gulp-watch');
 
 // Define paths. The order is important
